@@ -1,0 +1,300 @@
+.page {
+  max-width: 1950px;
+  margin: 0 auto;
+  padding: 0 15px;
+  background-image: url(./bg.jpg);
+  background-repeat: repeat-y;
+  background-size: contain;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  padding: 220px 0;
+}
+@media (max-width: 560px) {
+  .page {
+    padding: 60px 0;
+  }
+}
+.wrap {
+  background-color: #fff;
+  width: 76%;
+  margin: 0 auto;
+  position: relative;
+}
+@media (max-width: 1280px) {
+  .wrap {
+    width: 90%;
+  }
+}
+.logo {
+  padding: 96px 0 62px;
+}
+@media (max-width: 992px) {
+  .logo img {
+    width: 150px;
+  }
+  .logo {
+    padding: 66px 0 32px;
+  }
+}
+@media (max-width: 560px) {
+  .logo img {
+    width: 100px;
+  }
+  .logo {
+    padding: 36px 0 22px;
+  }
+}
+h1 {
+  font-weight: 900;
+  color: #00b0ba;
+  font-size: 75px;
+  padding-bottom: 65px;
+}
+@media (max-width: 992px) {
+  h1 {
+    font-size: 50px;
+    padding-bottom: 35px;
+  }
+}
+@media (max-width: 560px) {
+  h1 {
+    font-size: 30px;
+    padding-bottom: 25px;
+  }
+}
+
+.text-first {
+  font-weight: 600;
+}
+
+.container1285 {
+  max-width: 1285px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.container1285 p {
+  font-size: 47px;
+  padding-bottom: 50px;
+}
+@media (max-width: 992px) {
+  .container1285 p {
+    font-size: 27px;
+    padding-bottom: 15px;
+  }
+}
+@media (max-width: 560px) {
+  .container1285 p {
+    font-size: 18px;
+  }
+}
+.container1169 {
+  max-width: 1169px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.container999 {
+  max-width: 999px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.info {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 70px;
+}
+@media (max-width: 992px) {
+  .info {
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 560px) {
+  .info {
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+}
+.name {
+  font-weight: 500;
+  font-size: 47px;
+  color: #00b0ba;
+  padding: 0 30px;
+}
+@media (max-width: 992px) {
+  .name {
+    font-size: 27px;
+    padding: 0 20px;
+  }
+}
+@media (max-width: 560px) {
+  .name {
+    font-size: 27px;
+    padding: 0 20px 30px;
+  }
+}
+.info span {
+  display: block;
+  font-size: 41px;
+  color: #000000;
+  font-weight: 300;
+  padding-top: 30px;
+}
+@media (max-width: 992px) {
+  .info span {
+    font-size: 20px;
+    padding-top: 20px;
+  }
+}
+
+.location {
+  padding: 0 30px;
+}
+@media (max-width: 992px) {
+  .location {
+    padding: 0 20px;
+  }
+  .location img {
+    height: 30px;
+  }
+}
+@media (max-width: 560px) {
+  .location {
+    padding: 0 20px 30px;
+  }
+}
+.title {
+  padding: 20px 55px;
+  font-weight: 500;
+  font-size: 35px;
+  color: #00b0ba;
+}
+@media (max-width: 992px) {
+  .title {
+    font-size: 25px;
+    padding: 20px 20px;
+  }
+}
+@media (max-width: 560px) {
+  .title {
+    font-size: 20px;
+  }
+}
+.text {
+  font-weight: 300;
+  font-size: 35px;
+  padding-bottom: 50px;
+  max-width: 1169px;
+  margin: 0 auto;
+}
+@media (max-width: 992px) {
+  .text {
+    font-size: 25px;
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 560px) {
+  .text {
+    font-size: 18px;}
+}
+.logos {
+  display: flex;
+  justify-content: center;
+  padding: 53px 0 103px;
+}
+.logos img {
+  padding: 30px;
+  max-width: 100%;
+}
+@media (max-width: 992px) {
+  .logos img {
+    width: 180px;
+    padding: 20px;
+  }
+ 
+}
+@media (max-width: 560px) {
+  .logos img {
+    width: 130px;
+    padding: 10px;
+  }
+}
+.lable {
+  position: absolute;
+  bottom: 38px;
+  right: 38px;
+}
+@media (max-width: 992px) {
+  .lable {
+    bottom: 18px;
+    right: 18px;
+    width: 80px;
+  }
+}
+
+/* обнуление */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input,
+button,
+textarea {
+  font-size: inherit;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+  background-color: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
