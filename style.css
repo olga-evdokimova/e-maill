@@ -50,11 +50,37 @@ h1 {
   color: #00b0ba;
   font-size: 75px;
   padding-bottom: 65px;
+  position: relative;
+}
+h1::before {
+  content: "";
+  width: 15%;
+  height: 4px;
+  background-color: #00b0ba;
+  position: absolute;
+  left: 0;
+  top: 37%;
+}
+h1::after {
+  content: "";
+  width: 15%;
+  height: 4px;
+  background-color: #00b0ba;
+  position: absolute;
+  right: 0;
 }
 @media (max-width: 992px) {
   h1 {
     font-size: 50px;
     padding-bottom: 35px;
+  }
+  h1::before {
+    height: 2px;
+    width: 10%;
+  }
+  h1::after {
+    height: 2px;
+    width: 10%;
   }
 }
 @media (max-width: 560px) {
@@ -159,8 +185,8 @@ sup {
     height: 30px;
   }
   sup {
-  font-size: 12px;
-}
+    font-size: 12px;
+  }
 }
 @media (max-width: 560px) {
   .location {
